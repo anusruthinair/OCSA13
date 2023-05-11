@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <exclude name="smoke"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="actitimeapp.testscript.DropdownHandling"/>
+      <class name="actitimeapp.testscript.CreateCustomer"/>
+      <class name="actitimeapp.testscript.AlertHandling"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
